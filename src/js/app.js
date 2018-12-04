@@ -5,11 +5,13 @@ import {
     secretParagraph
 } from './dom-loader';
 
-
+// let API_URL;
 const updateSecretButton = () => {
     secretButton.textContent = showSecret ?
         'Hide the Secret' :
         'Show the Secret';
+        
+    console.log(API_URL);
 }
 
 const updateSecretParagraph = () => {
